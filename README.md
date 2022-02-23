@@ -19,3 +19,7 @@ To clone this proyect run this code in your terminal
 ```bash
 git clone https://github.com/dragaus/duels_ar.git
 ```
+
+## Motivation
+
+This game motivation is to create a simple game in which we can use some of the main characteristics of unity AR to create a simple multiplayer game.
