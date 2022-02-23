@@ -22,6 +22,11 @@ public class Shooter : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
 #endif
         {
+            if (!GameManager.instance.CanShoot)
+            {
+                return;
+            }
+
             Instantiate(projectilePrefab, transform.position, Quaternion.LookRotation(transform.forward, Vector3.up));
         }
     }
